@@ -1,0 +1,48 @@
+.home-wrapper {
+	background: url('../images/fondo1.jpg'); no-repeat center top;
+	background-size: cover;
+	color: white;
+	font-size: 35px;
+}
+
+header {
+	padding: 10px 0;
+}
+header img {
+	width: 200px;
+}
+
+header nav {
+	width: 940px;
+	height: 63px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+header nav a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 30px;
+	padding: 25px 30px;
+}
+
+header nav a.active {
+	border-radius: 10px;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+}
+
+header nav a.active:hover {
+	background-color: #996699;
+}
+
+#home {
+	text-align: right;
+	padding: 250px 200px;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: xx-large;
+	font-weight: normal;
+}
+
